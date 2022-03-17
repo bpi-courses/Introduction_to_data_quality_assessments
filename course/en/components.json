@@ -1,0 +1,2889 @@
+[
+  {
+    "_component": "textinput",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "What does data quality mean to you?",
+    "displayTitle": "What does data quality mean to you?",
+    "body": "",
+    "_id": "6214ffc45c080d0a15af0a19",
+    "_parentId": "6214ffc35c080d0a15af09c5",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Write a few words on how you would define data quality. We will reflect on these later.",
+    "_items": [
+      {
+        "_answers": [],
+        "prefix": "",
+        "suffix": "",
+        "placeholder": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_allowsAnyCase": true,
+    "_allowsPunctuation": true,
+    "_feedback": {
+      "title": "Reflecting on data quality",
+      "correct": "<p>Every organisation has different data quality needs and priorities for each of its data sets.</p><p>It's valuable to think about what data quality means in your context and why it matters to your objectives.&nbsp;</p>",
+      "_incorrect": {
+        "final": "<p>Every organisation has different data quality needs and priorities for each of its data sets.</p><p>It's valuable to think about what data quality means in your context and why it matters to your objectives.&nbsp;</p>",
+        "notFinal": "<p>Every organisation has different data quality needs and priorities for each of its data sets.</p><p>It's valuable to think about what data quality means in your context and why it matters to your objectives.&nbsp;</p>"
+      },
+      "_partlyCorrect": {
+        "final": "<p>Every organisation has different data quality needs and priorities for each of its data sets.</p><p>It's valuable to think about what data quality means in your context and why it matters to your objectives.&nbsp;</p>",
+        "notFinal": "<p>Every organisation has different data quality needs and priorities for each of its data sets.</p><p>It's valuable to think about what data quality means in your context and why it matters to your objectives.&nbsp;</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "pageNav",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Navigation",
+    "displayTitle": "",
+    "body": "",
+    "_id": "6214ffc45c080d0a15af0a1a",
+    "_parentId": "6214ffc35c080d0a15af09ce",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_loopStyle": "none",
+    "_buttons": {
+      "_returnToPreviousLocation": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Return",
+        "ariaLabel": "Return to previous location",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}"
+      },
+      "_previous": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Previous",
+        "ariaLabel": "Previous Page",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_root": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Menu",
+        "ariaLabel": "Go to main menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_up": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Back to menu",
+        "ariaLabel": "Back to menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_next": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": true,
+        "text": "Next",
+        "ariaLabel": "Next Page",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_sibling": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "{{inc index}}",
+        "ariaLabel": "Page {{inc index}}",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_close": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Close",
+        "ariaLabel": "Close window",
+        "_showTooltip": false,
+        "tooltip": "Close window"
+      }
+    }
+  },
+  {
+    "_component": "textinput",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Why do we need to assess the quality of data?",
+    "displayTitle": "Why do we need to assess the quality of data?",
+    "body": "",
+    "_id": "6214ffc45c080d0a15af0a1b",
+    "_parentId": "6214ffc35c080d0a15af09c7",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Write down a couple of points in the boxes below about why your organisation should assess the quality of data.",
+    "_items": [
+      {
+        "_answers": [],
+        "prefix": "",
+        "suffix": "",
+        "placeholder": ""
+      },
+      {
+        "_answers": [],
+        "prefix": "",
+        "suffix": "",
+        "placeholder": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "title": "Data quality and you",
+      "correct": "<p>Every organisation is different. Your unique needs, priorities, and challenges will shape what good data quality means in your context.</p>",
+      "_incorrect": {
+        "final": "<p>Every organisation is different. Your unique needs, priorities, and challenges will shape what good data quality means in your context.</p>",
+        "notFinal": "<p>Every organisation is different. Your unique needs, priorities, and challenges will shape what good data quality means in your context.</p>"
+      },
+      "_partlyCorrect": {
+        "final": "<p>Every organisation is different. Your unique needs, priorities, and challenges will shape what good data quality means in your context.</p>",
+        "notFinal": "<p>Every organisation is different. Your unique needs, priorities, and challenges will shape what good data quality means in your context.</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "textinput",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Making good data quality assessments",
+    "displayTitle": "",
+    "body": "<p>Write a few words about what you think might be important in a data quality assessment.</p>",
+    "_id": "6214ffc45c080d0a15af0a1c",
+    "_parentId": "6214ffc35c080d0a15af09ca",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "The course will continue once you have submitted an answer.",
+    "_items": [
+      {
+        "_answers": [],
+        "prefix": "",
+        "suffix": "",
+        "placeholder": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "title": "Good data quality assessments",
+      "correct": "<p>There are many ways to assess data quality. Good data quality assessments should be:</p><ul><li>Evidence based</li><li>Linked to purpose</li><li>Proactive</li><li>Communicated</li></ul><p>Click continue to see more</p>",
+      "_incorrect": {
+        "final": "<p>There are many ways to assess data quality. Good data quality assessments should be:</p><ul><li>Evidence based</li><li>Linked to purpose</li><li>Proactive</li><li>Communicated</li></ul><p>Click continue to see more</p>",
+        "notFinal": "<p>There are many ways to assess data quality. Good data quality assessments should be:</p><ul><li>Evidence based</li><li>Linked to purpose</li><li>Proactive</li><li>Communicated</li></ul><p>Click continue to see more</p>"
+      },
+      "_partlyCorrect": {
+        "final": "<p>There are many ways to assess data quality. Good data quality assessments should be:</p><ul><li>Evidence based</li><li>Linked to purpose</li><li>Proactive</li><li>Communicated</li></ul><p>Click continue to see more</p>",
+        "notFinal": "<p>There are many ways to assess data quality. Good data quality assessments should be:</p><ul><li>Evidence based</li><li>Linked to purpose</li><li>Proactive</li><li>Communicated</li></ul><p>Click continue to see more</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "accordion",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Good assessments 1",
+    "displayTitle": "",
+    "body": "",
+    "_id": "6214ffc45c080d0a15af0a1d",
+    "_parentId": "6214ffc35c080d0a15af09cb",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Evidence Based",
+        "body": "<p>Data users may tell us about&nbsp;quality problems they have experienced. This anecdotal information is useful but it is not enough for us to fully understand the quality of our data.</p><p>Measuring the quality of data using evidence-based criteria means we can:</p><ul><li>Quantify the quality of data</li><li>Identify changes in quality</li><li>Monitor the effect of improvements we make</li></ul>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Linked to purpose",
+        "body": "<p>It can be tempting to measure everything in a data set without linking measurements to purpose. But this makes it harder to focus improvements on things that will make the most difference. It also makes it harder to understand whether the data is suited to our uses.</p><p>Linking quality to purpose helps by:</p><ul><li>Establishing whether incorrect data will have an impact on the way we use the data set</li><li>Showing how quality varies for different users</li><li>Explaining why a quality issue might cause problems</li></ul>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": false
+  },
+  {
+    "_component": "accordion",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Good assessments 2",
+    "displayTitle": "",
+    "body": "",
+    "_id": "6214ffc45c080d0a15af0a1e",
+    "_parentId": "6214ffc35c080d0a15af09cb",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Proactive",
+        "body": "<p>Waiting until someone finds a quality issue means that it will already be causing problems in your organisation. It’s much better to check quality in data routinely, throughout the data lifecycle.</p><p>Measuring quality regularly, before we find problems helps by:</p><ul><li>Identifying issues before they grow</li><li>Stopping bad quality data from moving through the <a href=\"https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework#The-Data-Lifecycle\" target=\"_blank\">data lifecycle</a></li></ul>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Communicated",
+        "body": "<p>Assessing quality is only useful if people know the results of your assessment.</p><p>Good assessments should be clearly communicated to users. This enables them to:</p><ul><li>Choose the right data source&nbsp;</li><li>Adapt their work to account for quality problems</li></ul>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": false
+  },
+  {
+    "_component": "slider",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Reflections",
+    "displayTitle": "",
+    "body": "<p>Now that you have seen more about ways to improve data quality, reflect again on how confident you feel about making data fit for purpose.</p>",
+    "_id": "6214ffc45c080d0a15af0a1f",
+    "_parentId": "6214ffc35c080d0a15af09c8",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_questionWeight": 0,
+    "_recordInteraction": true,
+    "labelStart": "Not at all confident",
+    "labelEnd": "Completely confident",
+    "_scaleStart": 1,
+    "_scaleEnd": 10,
+    "_scaleStep": 1,
+    "_correctAnswer": "",
+    "_correctRange": {
+      "_bottom": 0,
+      "_top": 0
+    },
+    "_showScaleIndicator": true,
+    "_showNumber": true,
+    "_showScale": true,
+    "_showScaleNumbers": true,
+    "_feedback": {
+      "title": "Keep reflecting",
+      "correct": "<p>We hope that this course will help your understanding and confidence in managing data quality&nbsp;to grow.&nbsp;</p><p>The Government Data Quality Hub (DQHub) offers resources, advice and support across government. You can visit our website at&nbsp;<a href=\"https://www.gov.uk/government/organisations/government-data-quality-hub\" target=\"_blank\">https://www.gov.uk/government/organisations/government-data-quality-hub</a></p>",
+      "_incorrect": {
+        "final": "<p>We hope that this course will help your understanding and confidence in managing data quality&nbsp;to grow.&nbsp;</p><p>The Government Data Quality Hub (DQHub) offers resources, advice and support across government. You can visit our website at&nbsp;<a href=\"https://www.gov.uk/government/organisations/government-data-quality-hub\" target=\"_blank\">https://www.gov.uk/government/organisations/government-data-quality-hub</a></p><p>&nbsp;</p>",
+        "notFinal": "<p>We hope that this course will help your understanding and confidence in managing data quality&nbsp;to grow.&nbsp;</p><p>The Government Data Quality Hub (DQHub) offers resources, advice and support across government. You can visit our website at&nbsp;<a href=\"https://www.gov.uk/government/organisations/government-data-quality-hub\" target=\"_blank\">https://www.gov.uk/government/organisations/government-data-quality-hub</a></p><p>&nbsp;</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "slider",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "How confident are you about data quality?",
+    "displayTitle": "",
+    "body": "",
+    "_id": "6214ffc45c080d0a15af0a20",
+    "_parentId": "6214ffc35c080d0a15af09cc",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Use the slider to reflect on how confident you feel about how to make data fit for purpose.",
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_questionWeight": 0,
+    "_recordInteraction": true,
+    "labelStart": "Not at all confident",
+    "labelEnd": "Completely confident",
+    "_scaleStart": 1,
+    "_scaleEnd": 10,
+    "_scaleStep": 1,
+    "_correctAnswer": "",
+    "_correctRange": {
+      "_bottom": 0,
+      "_top": 10
+    },
+    "_showScaleIndicator": true,
+    "_showNumber": true,
+    "_showScale": true,
+    "_showScaleNumbers": true,
+    "_feedback": {
+      "title": "Reflecting on our knowledge",
+      "correct": "<p>Depending on your role and the way that your organisation operates, you may have had to think about data quality a lot or very little. No matter what your experience, it is good to reflect on how confident you feel in making improvements and progress in data quality.</p><p>We will return to this question at the end of the module.&nbsp;</p>",
+      "_incorrect": {
+        "final": "<p>Depending on your role and the way that your organisation operates, you may have had to think about data quality a lot or very little. No matter what your experience, it is good to reflect on how confident you feel in making improvements and progress in data quality.</p><p>We will return to this question at the end of the module.&nbsp;</p>",
+        "notFinal": "<p>Depending on your role and the way that your organisation operates, you may have had to think about data quality a lot or very little. No matter what your experience, it is good to reflect on how confident you feel in making improvements and progress in data quality.</p><p>We will return to this question at the end of the module.&nbsp;</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Why does quality matter?",
+    "displayTitle": "",
+    "body": "<p>We have looked at many different aspects of what matters in data quality. Why do you think it is important to know the quality of the data you use?</p>",
+    "_id": "6214ffc45c080d0a15af0a21",
+    "_parentId": "6214ffc35c080d0a15af09cd",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Check all that apply",
+    "_items": [
+      {
+        "text": "Data needs to be good enough to support decisions.",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "It is a legal requirement to assess data quality.",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "I might be using the data in a way that was not originally expected.",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "I should not use data that is imperfect.",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Knowing the data is poor quality means I can work around problems.",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Knowing the data is poor quality means I am not accountable for mistakes.",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 3,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 10,
+    "_feedback": {
+      "title": "Why does quality matter?",
+      "correct": "<p>That's right! Good data quality means that data is fit for purpose. It is good enough, but it does not need to be perfect.&nbsp;</p><p>There is no legal requirement to assess data quality, but knowing the quality of the data means that you know if it is fit for the purpose you are using it for, so that you can work around any quality issues.</p>",
+      "_incorrect": {
+        "final": "<p>Good data quality means that data are fit for purpose. They are good enough, but do not need to be perfect.&nbsp;There is no legal requirement to assess data quality and knowing that data is bad quality does not absolve a user of any responsibility for their decisions based on that data.</p><p>Knowing the quality of the data means that you know if it is fit for the purpose you are using it for, so that you can work around any quality issues. Good quality data leads to quality decision making.</p>",
+        "notFinal": "<p>Not quite!&nbsp;Three of these statements are true, three are false.</p>"
+      },
+      "_partlyCorrect": {
+        "final": "<p>Almost!&nbsp;Good data quality means that data are fit for purpose. They are good enough, but do not need to be perfect.&nbsp;There is no legal requirement to assess data quality and knowing that data is bad quality does not absolve a user of any responsibility for their decisions based on that data.</p><p>Knowing the quality of the data means that you know if it is fit for the purpose you are using it for, so that you can work around any quality issues. Good quality data leads to quality decision making.</p>",
+        "notFinal": "<p>Almost there! Three of these statements are true, three are false.</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "flipcard",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "True or false?",
+    "displayTitle": "",
+    "body": "<p>Each card below has a statement about why we must assess data quality. Read each one, and decide whether you think it is true or false.</p>",
+    "_id": "6214ffc45c080d0a15af0a22",
+    "_parentId": "6214ffc35c080d0a15af09cf",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Click each statement to see the answer",
+    "_flipType": "allFlip",
+    "_flipTime": 400,
+    "_items": [
+      {
+        "_flipDirection": "horizontal",
+        "frontImage": {
+          "alt": "Regulations state that we cannot use data if the quality has not been assessed.",
+          "src": "course/en/assets/512d05bc9b2bc67d41d3379cb1b21cf05cf7ab17.svg"
+        },
+        "backTitle": "False!",
+        "backBody": "<p>Regulations do not say this, but you will have better results if you know the quality of your data. If you need to assess data quality in a very short time period, check DQHub's <a href=\"https://www.gov.uk/government/publications/urgent-data-quality-assurance-guidance/urgent-data-quality-assurance-guidance\" target=\"_blank\"><span style=\"color:#eeeeee\">guidance on urgent data quality assurance</span></a><span style=\"color:#eeeeee\">.&nbsp;</span></p>"
+      },
+      {
+        "_flipDirection": "horizontal",
+        "frontImage": {
+          "alt": "You only need to assess the quality of data when you first collect it.",
+          "src": "course/en/assets/02843aca20001e849b8d7ee6f64567f239f413ed.svg"
+        },
+        "backTitle": "False!",
+        "backBody": "<p>Assessing the quality of data at collection is important. However, quality can deteriorate at any point in the data lifecycle. It is therefore important to assess data quality throughout the data lifecycle.</p>"
+      },
+      {
+        "_flipDirection": "horizontal",
+        "frontImage": {
+          "alt": "You have to assess the quality of data every week.",
+          "src": "course/en/assets/a0838ad1bd7e9b81d2910e9dbc644aa9c78347b6.svg"
+        },
+        "backTitle": "False!",
+        "backBody": "<p>You need to assess the quality of your data regularly to ensure that it remains fit for purpose.</p><p>How often you assess data quality should be based on how often the data changes. This may include, but is not limited to, any processes that:&nbsp;</p><ul><li>Input new data</li><li>Transform existing data</li><li>Migrate data to another system or platform</li></ul>"
+      },
+      {
+        "_flipDirection": "horizontal",
+        "frontImage": {
+          "alt": "You should assess the quality of data whenever you use it for something new. ",
+          "src": "course/en/assets/7c65edcf6fc9e2b721aca3ed7cf1ff29043d2e4a.svg"
+        },
+        "backTitle": "True!",
+        "backBody": "<p>The quality of your data might be fit for one purpose, but not for another. When you use an existing data set for a new purpose, you should assess whether the data is fit for that purpose.</p>"
+      },
+      {
+        "_flipDirection": "horizontal",
+        "frontImage": {
+          "alt": "Data quality assessments can increase efficiency in the long term.",
+          "src": "course/en/assets/8c43ab8ee98d8cf4b8b838cb05e55d9576548672.svg"
+        },
+        "backTitle": "True!",
+        "backBody": "<p>Regular, good data quality assessments can feel like a substantial undertaking, but the net benefits make them worth the time.</p><p>Knowing the quality of your data can increase efficiency by:</p><ul><li>Helping to focus your resources on fixing the most important problems</li><li>Allowing you to work around existing quality issues</li></ul>"
+      },
+      {
+        "_flipDirection": "horizontal",
+        "frontImage": {
+          "alt": "Regular data quality assessments can support improvements.",
+          "src": "course/en/assets/4895a14a8c75039882c645f720ee75474ae25a07.svg"
+        },
+        "backTitle": "True!",
+        "backBody": "<p>We know that continuous improvement relies on regular reviews. This applies to data quality too.</p><p>Regular data quality assessments not only allow you to identify&nbsp;the causes of poor data quality, but also reveal the impact of your work to improve.</p><p>Seeing the improvements you are making in solving data quality problems will give you momentum as you continue to progress towards your data quality goals.</p>"
+      }
+    ]
+  },
+  {
+    "_component": "pageNav",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Navigation",
+    "displayTitle": "",
+    "body": "",
+    "_id": "6214ffc45c080d0a15af0a23",
+    "_parentId": "6214ffc35c080d0a15af09dc",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_loopStyle": "none",
+    "_buttons": {
+      "_returnToPreviousLocation": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Return",
+        "ariaLabel": "Return to previous location",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}"
+      },
+      "_previous": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Previous",
+        "ariaLabel": "Previous Page",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_root": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Menu",
+        "ariaLabel": "Go to main menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_up": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Back to menu",
+        "ariaLabel": "Back to menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_next": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": true,
+        "text": "Next",
+        "ariaLabel": "Next Page",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_sibling": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "{{inc index}}",
+        "ariaLabel": "Page {{inc index}}",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_close": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Close",
+        "ariaLabel": "Close window",
+        "_showTooltip": false,
+        "tooltip": "Close window"
+      }
+    }
+  },
+  {
+    "_component": "textinput",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "The benefits of data quality action plans",
+    "displayTitle": "The benefits of data quality action plans",
+    "body": "<p>Imagine you are responsible for managing a data set. Think about the benefits of having a DQAP for your data set.&nbsp;Write down a couple of points in the box below.</p>",
+    "_id": "6214ffc45c080d0a15af0a24",
+    "_parentId": "6214ffc35c080d0a15af09d1",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "The course will continue once you have submitted an answer.",
+    "_items": [
+      {
+        "_answers": [],
+        "prefix": "",
+        "suffix": "",
+        "placeholder": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "title": "Benefits of data quality action plans",
+      "correct": "<p>There are many benefits to the way in which data quality action plans approach managing data quality. Click continue to see more.&nbsp;</p>",
+      "_incorrect": {
+        "final": "<p>There are many benefits to the way in which data quality action plans approach managing data quality. Click continue to see more.&nbsp;</p>",
+        "notFinal": "<p>There are many benefits to the way in which data quality action plans approach managing data quality. Click continue to see more.&nbsp;</p>"
+      },
+      "_partlyCorrect": {
+        "final": "<p>There are many benefits to the way in which data quality action plans approach managing data quality. Click continue to see more.&nbsp;</p>",
+        "notFinal": "<p>There are many benefits to the way in which data quality action plans approach managing data quality. Click continue to see more.&nbsp;</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "textinput",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Assessing data quality",
+    "displayTitle": "",
+    "body": "<p>Imagine you are responsible for a new data set. Think about some of the steps you would take in designing a data quality assessment.</p>",
+    "_id": "6214ffc45c080d0a15af0a25",
+    "_parentId": "6214ffc35c080d0a15af09d0",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Write down some of the steps you would take. We will build on these later in the module.",
+    "_items": [
+      {
+        "_answers": [],
+        "prefix": "",
+        "suffix": "",
+        "placeholder": ""
+      },
+      {
+        "_answers": [],
+        "prefix": "",
+        "suffix": "",
+        "placeholder": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "title": "Assessing data quality",
+      "correct": "<p>We know that maintaining good data quality requires regular data quality assessments. All good assessments are evidence based, linked to purpose, proactive, and communicated.&nbsp;</p>",
+      "_incorrect": {
+        "final": "<p>We know that maintaining good data quality requires regular data quality assessments. All good assessments are evidence based, linked to purpose, proactive, and communicated.&nbsp;</p>",
+        "notFinal": "<p>We know that maintaining good data quality requires regular data quality assessments. All good assessments are evidence based, linked to purpose, proactive, and communicated.&nbsp;</p>"
+      },
+      "_partlyCorrect": {
+        "final": "<p>We know that maintaining good data quality requires regular data quality assessments. All good assessments are evidence based, linked to purpose, proactive, and communicated.&nbsp;</p>",
+        "notFinal": "<p>We know that maintaining good data quality requires regular data quality assessments. All good assessments are evidence based, linked to purpose, proactive, and communicated.&nbsp;</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "hotgraphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Data quality action plans",
+    "displayTitle": "",
+    "body": "<p>Why use a data quality action plan as the method to assess and improve your data quality? They give you both structure to your assessment and actions to improve.</p>",
+    "_id": "6214ffc45c080d0a15af0a26",
+    "_parentId": "6214ffc35c080d0a15af09d3",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Click the numbers to see more",
+    "_setCompletionOn": "allItems",
+    "_graphic": {
+      "src": "course/en/assets/fabb1149a68d30175ec22cee9f6f93e78e778017.png",
+      "alt": "Two arrows pointing towards each other with the words 'data quality action plans' in the middle. The left arrow reads 'Structured assessment of quality' and the right arrow reads 'Actions that will address quality problems'.",
+      "attribution": ""
+    },
+    "mobileBody": "<p>Data quality action plans (DQAPs) are an approach that combine a structured assessment of quality with actions that will address quality problems.</p>",
+    "mobileInstruction": "<p>Read more on what data quality actions plans do.</p>",
+    "_hidePagination": false,
+    "_canCycleThroughPagination": true,
+    "_isNarrativeOnMobile": true,
+    "_useNumberedPins": true,
+    "_useGraphicsAsPins": false,
+    "_isRound": false,
+    "_items": [
+      {
+        "title": "Structured assessment of quality",
+        "_ariaLevel": 0,
+        "body": "<p>DQAPs are evidence based,&nbsp;linked to purpose, proactive and support clear communication of quality.</p>",
+        "strapline": "Structured assessment ",
+        "_graphic": {
+          "src": "course/en/assets/6209c9150de96d1785737d99aa4c6acb5b8459cf.png",
+          "alt": "Structured assessment of quality",
+          "attribution": "",
+          "_classes": ""
+        },
+        "_pin": {
+          "src": "",
+          "alt": ""
+        },
+        "_classes": "",
+        "_left": 0,
+        "_top": 60
+      },
+      {
+        "title": "Actions to address quality problems",
+        "_ariaLevel": 0,
+        "body": "<p>DQAPs&nbsp;are designed for ongoing management of data quality, not for one-off assessments.</p>",
+        "strapline": "Concrete action",
+        "_graphic": {
+          "src": "course/en/assets/149cbd7d5be1e0dcba3d84e9abb6b26e18180032.png",
+          "alt": "Actions that will address quality problems",
+          "attribution": "",
+          "_classes": ""
+        },
+        "_pin": {
+          "src": "",
+          "alt": ""
+        },
+        "_classes": "",
+        "_left": 94,
+        "_top": 60
+      }
+    ]
+  },
+  {
+    "_component": "accordion",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "What makes data quality action plans effective?",
+    "displayTitle": "",
+    "body": "",
+    "_id": "6214ffc45c080d0a15af0a28",
+    "_parentId": "6214ffc35c080d0a15af09d5",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Click each banner to see more.",
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Link data to purpose",
+        "body": "<p>Traditional data quality assessments are comprehensive, but they do not account for different uses of the data. They will rate the data as being the same quality despite different purposes.</p><p>A data quality action plan links data quality to your needs by considering the purpose the data is used for.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Focus on what matters",
+        "body": "<p>Traditional data quality assessments treat all fields of a data set as equally important. This means that your essential data is treated the same way as optional data.</p><p>By linking data to how it is used, data quality action plans help you to focus on the quality of your critical data first.&nbsp;</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Work efficiently",
+        "body": "<p>It is easy to waste time and resources by measuring and fixing data that does not have an impact on your work.</p><p>Data quality action plans can lead to more efficient, targeted improvements to your data quality.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_component": "reveal",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "How is it different?",
+    "displayTitle": "",
+    "body": "",
+    "_id": "6214ffc45c080d0a15af0a29",
+    "_parentId": "6214ffc35c080d0a15af09d6",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Click the bar on the left hand side of the image to see more.",
+    "_direction": "left",
+    "control": {
+      "hideText": "Hide",
+      "showText": "Show"
+    },
+    "first": {
+      "title": "Traditional data quality assesments",
+      "src": "course/en/assets/71035a582204357af9aea9f3a46d2ba1d2c0540e.jpg",
+      "alt": "A figure using a large magnifying glass to inspect some document folders. ",
+      "body": "<p>Traditional data quality assessments start by looking at the structure of the data set, then what can be measured in the fields. These tests then add up to a single view of&nbsp;quality in a data set.</p>",
+      "moreText": "More"
+    },
+    "second": {
+      "title": "Data quality action plans",
+      "src": "course/en/assets/e4a80744a815147d1ecd98250d4dc399fbe54e55.jpg",
+      "alt": "A figure putting together some building blocks.",
+      "body": "<p>Data quality action plans are formed in the opposite way, starting with the way data is used, working through the structure of the data.</p>",
+      "moreText": "More"
+    }
+  },
+  {
+    "_component": "slider",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "How confident are you?",
+    "displayTitle": "",
+    "body": "<p>Now that you have completed this module, consider:</p><p>How confident would you feel about suggesting&nbsp;a data quality action plan as part of managing the quality of an important data set in your organisation?</p>",
+    "_id": "6214ffc45c080d0a15af0a2c",
+    "_parentId": "6214ffc35c080d0a15af09eb",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Use the slider to indicate your confidence.",
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_questionWeight": 1,
+    "_recordInteraction": true,
+    "labelStart": "Not at all confident",
+    "labelEnd": "Completely confident",
+    "_scaleStart": 1,
+    "_scaleEnd": 10,
+    "_scaleStep": 1,
+    "_correctAnswer": "",
+    "_correctRange": {
+      "_bottom": 1,
+      "_top": 10
+    },
+    "_showScaleIndicator": true,
+    "_showNumber": true,
+    "_showScale": true,
+    "_showScaleNumbers": true,
+    "_feedback": {
+      "title": "Reflecting on data quality action plans",
+      "correct": "<p>We hope that this course is helping you to form more ideas about how to assess data quality well.</p><p>The Government Data Quality Hub (DQHub) is developing tools, guidance, and training to help you with your data quality initiatives. You can find the <a href=\"https://www.gov.uk/government/publications/the-government-data-quality-framework\">Government Data Quality Framework</a>, tools and case studies on <a href=\"https://www.gov.uk/government/organisations/government-data-quality-hub\">the DQHub site</a>.</p><p>We also offer tailored advice and support across government. You can contact us by emailing&nbsp;<a href=\"mailto:DQHub@ons.gov.uk\">DQHub@ons.gov.uk</a>.</p>",
+      "_incorrect": {
+        "final": "<p>We hope that this course is helping you to form more ideas about how to assess data quality well.</p><p>The Government Data Quality Hub (DQHub) is developing tools, guidance, and training to help you with your data quality initiatives. You can find the <a href=\"https://www.gov.uk/government/publications/the-government-data-quality-framework\">Government Data Quality Framework</a>, tools and case studies on <a href=\"https://www.gov.uk/government/organisations/government-data-quality-hub\">the DQHub site</a>.</p><p>We also offer tailored advice and support across government. You can contact us by emailing&nbsp;<a href=\"mailto:DQHub@ons.gov.uk\">DQHub@ons.gov.uk</a>.</p>",
+        "notFinal": "<p>We hope that this course is helping you to form more ideas about how to assess data quality well.</p><p>The Government Data Quality Hub (DQHub) is developing tools, guidance, and training to help you with your data quality initiatives. You can find the <a href=\"https://www.gov.uk/government/publications/the-government-data-quality-framework\">Government Data Quality Framework</a>, tools and case studies on <a href=\"https://www.gov.uk/government/organisations/government-data-quality-hub\">the DQHub site</a>.</p><p>We also offer tailored advice and support across government. You can contact us by emailing&nbsp;<a href=\"mailto:DQHub@ons.gov.uk\">DQHub@ons.gov.uk</a>.</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "textinput",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Reflecting on data quality action plans",
+    "displayTitle": "",
+    "body": "<p>At the start of this module, you wrote down some thoughts on how you might assess data quality. Use the box below to write down some reflections on the approach you considered earlier.</p>",
+    "_id": "6214ffc45c080d0a15af0a2d",
+    "_parentId": "6214ffc35c080d0a15af09d2",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "_answers": [],
+        "prefix": "",
+        "suffix": "",
+        "placeholder": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "title": "Reflecting on data quality action plans",
+      "correct": "<p>All good assessments are evidence based, linked to purpose, proactive, and communicated. We hope that this module helps to start shaping your thinking on how you might apply effective data quality assessments in your own context.</p>",
+      "_incorrect": {
+        "final": "<p>All good assessments are evidence based, linked to purpose, proactive, and communicated. We hope that this module helps to start shaping your thinking on how you might apply effective data quality assessments in your own context.</p>",
+        "notFinal": "<p>All good assessments are evidence based, linked to purpose, proactive, and communicated. We hope that this module helps to start shaping your thinking on how you might apply effective data quality assessments in your own context.</p>"
+      },
+      "_partlyCorrect": {
+        "final": "<p>All good assessments are evidence based, linked to purpose, proactive, and communicated. We hope that this module helps to start shaping your thinking on how you might apply effective data quality assessments in your own context.</p>",
+        "notFinal": "<p>All good assessments are evidence based, linked to purpose, proactive, and communicated. We hope that this module helps to start shaping your thinking on how you might apply effective data quality assessments in your own context.</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "What is a DQAP?",
+    "displayTitle": "",
+    "body": "<p>We looked at the features of data quality action plans. Which of these are parts of a data quality action plan?</p>",
+    "_id": "6214ffc45c080d0a15af0a2e",
+    "_parentId": "6214ffc35c080d0a15af09da",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Tick all that apply",
+    "_items": [
+      {
+        "text": "Actions that will address the causes of data quality problems.",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "A schedule to measure data quality over time.",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "A report on the completeness of all of the fields in a data set.",
+        "_shouldBeSelected": false,
+        "feedback": "<p>The data quality measurements made as part of a&nbsp;data quality action plan might measure completeness of your data, but DQAPs deliberately focus only on the important fields in a data set.</p>"
+      },
+      {
+        "text": "Measurements to assess the quality of data.",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "A plan to reach 100% accuracy in your data.",
+        "_shouldBeSelected": false,
+        "feedback": "<p>Perfect accuracy may not be relevant or achievable in any or all of the fields in your data set. DQAPs identify which fields matter, and the quality needed to make your data fit for purpose.</p>"
+      },
+      {
+        "text": "A list of records with missing data.",
+        "_shouldBeSelected": false,
+        "feedback": "<p>Data quality action plans are time efficient by only identifying places where incomplete data has a negative impact on your business outcomes.</p>"
+      },
+      {
+        "text": "An understanding of how the data is used.",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 3,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 10,
+    "_feedback": {
+      "title": "What's in a DQAP?",
+      "correct": "<p>Correct! A data quality action plan contains:</p><ul><li>A set of measurements to assess the quality of data</li><li>A schedule for measuring quality</li><li>Results from those measurements over time</li><li>Identification of root causes for data problems</li><li>Actions designed to address root causes</li></ul>",
+      "_incorrect": {
+        "final": "<p>Not quite! A data quality action plan contains:</p><ul><li>A set of measurements to assess the quality of data</li><li>A schedule for measuring quality</li><li>Results from those measurements over time</li><li>Identification of root causes for data problems</li><li>Actions designed to address root causes</li></ul>",
+        "notFinal": "<p>Not quite!</p><p>Think about the purpose of data quality action plans, what they measure and why.&nbsp;</p>"
+      },
+      "_partlyCorrect": {
+        "final": "<p>Almost! A data quality action plan contains:</p><ul><li>A set of measurements to assess the quality of data</li><li>A schedule for measuring quality</li><li>Results from those measurements over time</li><li>Identification of root causes for data problems</li><li>Actions designed to address root causes</li></ul>",
+        "notFinal": "<p>Almost there!</p><p>Think about the purpose of data quality action plans, what they measure and why.&nbsp;</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "flipcard",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "True or false?",
+    "displayTitle": "",
+    "body": "",
+    "_id": "6214ffc45c080d0a15af0a30",
+    "_parentId": "6214ffc35c080d0a15af09d9",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Click each card to see the answer",
+    "_flipType": "allFlip",
+    "_flipTime": 400,
+    "_items": [
+      {
+        "_flipDirection": "horizontal",
+        "frontImage": {
+          "alt": "Data quality action plans are a quick fix to an immediate problem.",
+          "src": "course/en/assets/61bf7cac6c27576311268c50216686037f809ea7.svg"
+        },
+        "backTitle": "False!",
+        "backBody": "<p>Data quality action plans are a long term solution.&nbsp;</p><p>Quick fixes to data quality are often superficial and do not resolve the underlying issue. This makes them inefficient and costly in the long term.</p>"
+      },
+      {
+        "_flipDirection": "horizontal",
+        "frontImage": {
+          "alt": "Data quality action plans combine assessment with action.",
+          "src": "course/en/assets/878400bc23455f906ba2cf56e7cdccc4c9022c71.svg"
+        },
+        "backTitle": "True!",
+        "backBody": "<p>Data quality action plans combine a structured assessment of quality with actions to address data quality problems. This creates an approach to data quality management&nbsp;that is evidence based, linked to purpose, proactive and communicated.&nbsp;</p>"
+      },
+      {
+        "_flipDirection": "horizontal",
+        "frontImage": {
+          "alt": "Data quality action plans assess the quality of data according to how it is used.",
+          "src": "course/en/assets/024d85a31c6a044b7c80c1e368b4de74999fdba4.svg"
+        },
+        "backTitle": "True!",
+        "backBody": "<p>Data quality action plans start from understanding the uses of data and then assess how data quality impacts outcomes.</p><p>They can help you understand if your data is fit for your purposes and your users' purposes.</p>"
+      },
+      {
+        "_flipDirection": "horizontal",
+        "frontImage": {
+          "alt": "Data quality action plans help to manage data quality in the long term.",
+          "src": "course/en/assets/40ac653ec227119819801ff13d6bb437ee8be25c.svg"
+        },
+        "backTitle": "True!",
+        "backBody": "<p>Data quality action plans are a way of ensuring ongoing management and maintenance of data quality. They are not intended for one-off, 'snapshot' assessments.</p>"
+      },
+      {
+        "_flipDirection": "horizontal",
+        "frontImage": {
+          "alt": "Data quality action plans are aimed at data experts.",
+          "src": "course/en/assets/1fbd2258f3238b0bd3b0a20126ccf5c92dc3f995.svg"
+        },
+        "backTitle": "False!",
+        "backBody": "<p>Data quality action plans are intended to communicate data quality in a way that speaks to both strategic leadership and technical data experts.</p>"
+      },
+      {
+        "_flipDirection": "horizontal",
+        "frontImage": {
+          "alt": "Data quality action plans proactively prevent data quality problems damaging your work.",
+          "src": "course/en/assets/eadd84d005d99000c71ae22e94ffbcdbe05e7ab7.svg"
+        },
+        "backTitle": "True!",
+        "backBody": "<p>Data quality action plans take a proactive approach to data quality by addressing root causes of quality issues. This solves problems with data quality before they have negative impacts on your business objectives.</p>"
+      }
+    ]
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Success",
+    "displayTitle": "",
+    "body": "",
+    "_id": "6214ffc45c080d0a15af0a47",
+    "_parentId": "6214ffc35c080d0a15af09c4",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "Silhouette of a person against a sunset. They have one arm raised with their hand clenched in a fist.",
+      "large": "course/en/assets/415a0decfc558c915c02958c41bf1950f4378cb6.jpg",
+      "small": "course/en/assets/415a0decfc558c915c02958c41bf1950f4378cb6.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Next Steps",
+    "displayTitle": "",
+    "body": "<p>Now that you have learned about what makes a good data quality assessment and why they matter, think about a data set that is important to your work:</p><ul><li>Why does this data set matter to you?</li><li>What would be the consequences of bad quality data in this data set?</li><li>What does your organisation currently do to assess and manage the quality of this data?</li></ul>",
+    "_id": "6214ffc45c080d0a15af0a48",
+    "_parentId": "6214ffc35c080d0a15af09c4",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "The Government Data Quality Hub",
+    "displayTitle": "",
+    "body": "<p>This course has been created by the Government Data Quality Hub (DQHub). The team is based in the Office for National Statistics and works across government to help organisations to understand and improve data quality.​</p><p>You can find the <a href=\"https://www.gov.uk/government/publications/the-government-data-quality-framework\" target=\"_blank\">Government Data Quality Framework</a>, and more tools, guidance, and advice&nbsp;on&nbsp;<a href=\"https://www.gov.uk/government/organisations/government-data-quality-hub\">the DQHub website</a>.</p><p>We also offer bespoke advice and support across government. You can contact us by emailing&nbsp;<a href=\"mailto:dqhub@ons.gov.uk\">DQHub@ons.gov.uk</a></p>",
+    "_id": "6214ffc45c080d0a15af0a49",
+    "_parentId": "6218f7645c080d0a15af0be1",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "End of course",
+    "displayTitle": "",
+    "body": "<p>You have now completed this course. Congratulations!</p><p>Please fill in our <a href=\"https://www.smartsurvey.co.uk/s/FL3ZKU/\">feedback form</a>&nbsp;so that we can identify areas for improvement and understand your needs and priorities for developing future courses.&nbsp;</p>",
+    "_id": "6214ffc45c080d0a15af0a4c",
+    "_parentId": "6218f8095c080d0a15af0be3",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "pageNav",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Navigation",
+    "displayTitle": "",
+    "body": "",
+    "_id": "6214ffc45c080d0a15af0a4d",
+    "_parentId": "6214ffc35c080d0a15af09fb",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_loopStyle": "none",
+    "_buttons": {
+      "_returnToPreviousLocation": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Return",
+        "ariaLabel": "Return to previous location",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}"
+      },
+      "_previous": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Previous",
+        "ariaLabel": "Previous Page",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_root": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Menu",
+        "ariaLabel": "Go to main menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_up": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Back to menu",
+        "ariaLabel": "Back to menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_next": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": true,
+        "text": "Next",
+        "ariaLabel": "Next Page",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_sibling": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "{{inc index}}",
+        "ariaLabel": "Page {{inc index}}",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_close": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Close",
+        "ariaLabel": "Close window",
+        "_showTooltip": false,
+        "tooltip": "Close window"
+      }
+    }
+  },
+  {
+    "_component": "hotgrid",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "What is data quality?",
+    "displayTitle": "",
+    "body": "",
+    "_id": "6214ffc45c080d0a15af0a55",
+    "_parentId": "6214ffc35c080d0a15af09c6",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Click each image to see more.",
+    "_setCompletionOn": "allItems",
+    "_hidePagination": false,
+    "_canCycleThroughPagination": false,
+    "_columns": 3,
+    "_isRound": true,
+    "_items": [
+      {
+        "title": "Fit for purpose",
+        "body": "<p>Good quality data is data that is fit for purpose. Data needs to be good enough to support the services, decisions or policies it is used for.</p>",
+        "_classes": "",
+        "_graphic": {
+          "src": "course/en/assets/e086917a7bd5364e62fdc1d5adc433df473a67b0.jpg",
+          "srcHover": "",
+          "srcVisited": "",
+          "alt": "A large, modern and well organised library",
+          "title": "Fit for purpose"
+        },
+        "_itemGraphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      },
+      {
+        "title": "Link data to purpose",
+        "body": "<p>It is common for data to be collected for one purpose but used for many other purposes. This helps us make the most of our data.</p>",
+        "_classes": "",
+        "_graphic": {
+          "src": "course/en/assets/ea856f1f679747b0efe958b55a324e87ac54f4a4.jpg",
+          "srcHover": "",
+          "srcVisited": "",
+          "alt": "A laptop being used. There is an overlaid network of users connecting to the data together.",
+          "title": "Link data to purpose"
+        },
+        "_itemGraphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      },
+      {
+        "title": "Link quality to purpose",
+        "body": "<p>This means that data may be good enough for one purpose, but not another.&nbsp;The quality of data is different for different uses.&nbsp;</p>",
+        "_classes": "",
+        "_graphic": {
+          "src": "course/en/assets/ec2b3ec5328b66c88fc24fa406b3ac053ca91d2a.jpg",
+          "srcHover": "",
+          "srcVisited": "",
+          "alt": "A sphere of data connections. It is surrounded by six different types of charts and uses for data.",
+          "title": "Link quality to purpose"
+        },
+        "_itemGraphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      }
+    ]
+  },
+  {
+    "_component": "hotgrid",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "What can I learn from a data quality assessment?",
+    "displayTitle": "",
+    "body": "<p>We need to assess the quality of data so that we can better understand the value and utility of the data.</p>",
+    "_id": "6214ffc45c080d0a15af0a56",
+    "_parentId": "6214ffc35c080d0a15af09c9",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_setCompletionOn": "allItems",
+    "_hidePagination": false,
+    "_canCycleThroughPagination": false,
+    "_columns": 3,
+    "_isRound": false,
+    "_items": [
+      {
+        "title": "Suitability of data",
+        "body": "<p>Understand what the data is suitable for, and what it isn't.</p>",
+        "_classes": "",
+        "_graphic": {
+          "src": "course/en/assets/0ed96e505fcb6b5000e653d5c0dcd18b7c81c40e.png",
+          "srcHover": "",
+          "srcVisited": "",
+          "alt": "Lots of arrows of different colours converging",
+          "title": "Suitability"
+        },
+        "_itemGraphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      },
+      {
+        "title": "Track changes over time",
+        "body": "<p>Understand how your data quality changes over time. Record and track changes.</p>",
+        "_classes": "",
+        "_graphic": {
+          "src": "course/en/assets/79e430adf41c41ebd8447b3d5fd877f7db23b938.jfif",
+          "srcHover": "",
+          "srcVisited": "",
+          "alt": "Six leaves hanging on a line. The colours change from a green leaf on the left, through golden to red leaves on the right.",
+          "title": "Change"
+        },
+        "_itemGraphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      },
+      {
+        "title": "Focus your improvements",
+        "body": "<p>Understand what parts of the data set need improvements so it can properly support the needs of its users.</p>",
+        "_classes": "",
+        "_graphic": {
+          "src": "course/en/assets/740f3a577f93207ae339466c9ecd55a53d39b291.png",
+          "srcHover": "",
+          "srcVisited": "",
+          "alt": "A column chart with an arrow showing increasing values.",
+          "title": "Progress"
+        },
+        "_itemGraphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      }
+    ]
+  },
+  {
+    "_component": "pageNav",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Home button",
+    "displayTitle": "",
+    "body": "",
+    "_id": "6214ffc45c080d0a15af0a57",
+    "_parentId": "6214ffc35c080d0a15af0a00",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_loopStyle": "none",
+    "_buttons": {
+      "_returnToPreviousLocation": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Return",
+        "ariaLabel": "Return to previous location",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}"
+      },
+      "_previous": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Previous",
+        "ariaLabel": "Previous Page",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_root": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Menu",
+        "ariaLabel": "Go to main menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_up": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Back to menu",
+        "ariaLabel": "Back to menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_next": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": true,
+        "text": "Next",
+        "ariaLabel": "Next Page",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_sibling": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "{{inc index}}",
+        "ariaLabel": "Page {{inc index}}",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_close": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Close",
+        "ariaLabel": "Close window",
+        "_showTooltip": false,
+        "tooltip": "Close window"
+      }
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Data quality action plan elements",
+    "displayTitle": "",
+    "body": "<p>A data quality action plan contains:</p><ul><li>a set of measurements to assess the quality of data</li><li>a schedule for measuring quality</li><li>results from those quality measurements over time</li><li>identification of root causes for data quality problems</li><li>actions designed to address root causes</li></ul>",
+    "_id": "6214ffc45c080d0a15af0a58",
+    "_parentId": "6214ffc35c080d0a15af0a02",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Image",
+    "displayTitle": "",
+    "body": "",
+    "_id": "6214ffc45c080d0a15af0a59",
+    "_parentId": "6214ffc35c080d0a15af0a02",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "A woman with a checklist",
+      "large": "course/en/assets/e13727987475a750a75b14449a619970020c2056.jpg",
+      "small": "course/en/assets/e13727987475a750a75b14449a619970020c2056.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_component": "hotgrid",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "DQAP benefits",
+    "displayTitle": "",
+    "body": "<p>A data quality action plan will help you manage the quality of your data in many ways.</p>",
+    "_id": "6214ffc45c080d0a15af0a5a",
+    "_parentId": "6214ffc35c080d0a15af0a01",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Click each image to see more",
+    "_setCompletionOn": "allItems",
+    "_hidePagination": false,
+    "_canCycleThroughPagination": false,
+    "_columns": 3,
+    "_isRound": false,
+    "_items": [
+      {
+        "title": "Identify problems",
+        "body": "<p>They identify quality issues in your data.</p>",
+        "_classes": "",
+        "_graphic": {
+          "src": "course/en/assets/5a02c8171f12f448a910e563e508bb15684e161b.jfif",
+          "srcHover": "",
+          "srcVisited": "",
+          "alt": "A telescope looking out over water.",
+          "title": "Identify"
+        },
+        "_itemGraphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      },
+      {
+        "title": "Impact of poor quality",
+        "body": "<p>They show&nbsp;the impact that poor data quality will have&nbsp;on your organisation’s work.</p>",
+        "_classes": "",
+        "_graphic": {
+          "src": "course/en/assets/16c17560f939045d3e4ea6e11567156812767f88.jpg",
+          "srcHover": "",
+          "srcVisited": "",
+          "alt": "A plate impacting on the floor and breaking ",
+          "title": "Impact"
+        },
+        "_itemGraphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      },
+      {
+        "title": "Guide to action",
+        "body": "<p>They guide&nbsp;you to actions that will be most effective in addressing your data problems.</p>",
+        "_classes": "",
+        "_graphic": {
+          "src": "course/en/assets/3a85367b0ada74159ce565c7d3d357ed52f8573f.jfif",
+          "srcHover": "",
+          "srcVisited": "",
+          "alt": "Four colourful arrows drawn onto a tree.",
+          "title": "Guide"
+        },
+        "_itemGraphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      },
+      {
+        "title": "Save time",
+        "body": "<p>They reduce time and effort spent on fixing data quality issues.</p>",
+        "_classes": "",
+        "_graphic": {
+          "src": "course/en/assets/11229380a0d638ef6e054039a64436a638aff113.jpg",
+          "srcHover": "",
+          "srcVisited": "",
+          "alt": "An hourglass",
+          "title": "Time"
+        },
+        "_itemGraphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      },
+      {
+        "title": "See change",
+        "body": "<p>They provide a picture of quality over time.</p>",
+        "_classes": "",
+        "_graphic": {
+          "src": "course/en/assets/79e430adf41c41ebd8447b3d5fd877f7db23b938.jfif",
+          "srcHover": "",
+          "srcVisited": "",
+          "alt": "Leaves hanging on a line. The colour of each leaf progressively changes from green to red.",
+          "title": "Change"
+        },
+        "_itemGraphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      },
+      {
+        "title": "Communicate",
+        "body": "<p>They link technical measurements of quality to strategic objectives. This helps&nbsp;both data experts and strategic leaders&nbsp;to understand the impact of poor quality data.</p>",
+        "_classes": "",
+        "_graphic": {
+          "src": "course/en/assets/2b0028eecbde2be8ac3bacfdd0d1f1f48ab71a64.jpg",
+          "srcHover": "",
+          "srcVisited": "",
+          "alt": "A group of people sat around a wooden rectangular desk with laptops.",
+          "title": "Communicate"
+        },
+        "_itemGraphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      }
+    ]
+  },
+  {
+    "_component": "matching",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Benefits of data quality action plans",
+    "displayTitle": "",
+    "body": "",
+    "_id": "6214ffc45c080d0a15af0a5b",
+    "_parentId": "6214ffc35c080d0a15af09db",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "For each statement, choose whether this is a feature of a traditional approach to data quality or a DQAP approach. ",
+    "_attempts": 3,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
+    "_shouldResetAllAnswers": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_questionWeight": 1,
+    "_recordInteraction": true,
+    "placeholder": "Please select an option",
+    "_items": [
+      {
+        "text": "Different quality assessments for different uses of the data.",
+        "_options": [
+          {
+            "text": "Traditional assessments",
+            "_isCorrect": false
+          },
+          {
+            "text": "Data quality action plans",
+            "_isCorrect": true
+          }
+        ]
+      },
+      {
+        "text": "Equal importance given to all fields in the data set.",
+        "_options": [
+          {
+            "text": "Traditional assessments",
+            "_isCorrect": true
+          },
+          {
+            "text": "Data quality action plans",
+            "_isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "Outputs that communicate data quality priorities well to strategic leadership.",
+        "_options": [
+          {
+            "text": "Traditional assessments",
+            "_isCorrect": false
+          },
+          {
+            "text": "Data quality action plans",
+            "_isCorrect": true
+          }
+        ]
+      },
+      {
+        "text": "A data-first approach designed for technical data experts.",
+        "_options": [
+          {
+            "text": "Traditional assessments",
+            "_isCorrect": true
+          },
+          {
+            "text": "Data quality action plans",
+            "_isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "The impact that the quality of the data has on your business outcomes.",
+        "_options": [
+          {
+            "text": "Traditional assessments",
+            "_isCorrect": false
+          },
+          {
+            "text": "Data quality action plans",
+            "_isCorrect": true
+          }
+        ]
+      }
+    ],
+    "_feedback": {
+      "title": "Benefits of data quality action plans",
+      "correct": "<p>Correct! Well done.</p><p>There are many benefits to using data quality action plans over traditional data quality assessments.</p>",
+      "_incorrect": {
+        "final": "<p>Not quite!</p><p>There are many benefits to using data quality action plans over traditional data quality assessments.</p>",
+        "notFinal": "<p>Not quite!</p><p>Data quality action plans and traditional data quality assessments have some similarities and some differences.</p>"
+      },
+      "_partlyCorrect": {
+        "final": "<p>Almost!</p><p>There are many benefits to using data quality action plans over traditional data quality assessments.</p>",
+        "notFinal": "<p>Nearly there!</p><p>Data quality action plans and traditional data quality assessments have some similarities and some differences.</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "pageNav",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Home button",
+    "displayTitle": "",
+    "body": "",
+    "_id": "6214ffc45c080d0a15af0a5c",
+    "_parentId": "6214ffc35c080d0a15af0a03",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_loopStyle": "none",
+    "_buttons": {
+      "_returnToPreviousLocation": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Return",
+        "ariaLabel": "Return to previous location",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}"
+      },
+      "_previous": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Previous",
+        "ariaLabel": "Previous Page",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_root": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Menu",
+        "ariaLabel": "Go to main menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_up": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Back to menu",
+        "ariaLabel": "Back to menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_next": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": true,
+        "text": "Next",
+        "ariaLabel": "Next Page",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_sibling": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "{{inc index}}",
+        "ariaLabel": "Page {{inc index}}",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_close": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Close",
+        "ariaLabel": "Close window",
+        "_showTooltip": false,
+        "tooltip": "Close window"
+      }
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Traditional vs DQAP",
+    "displayTitle": "",
+    "body": "<p>&nbsp;</p><p>Data quality action plans take a very different approach to traditional data quality assessments.</p><p>Think about:</p><ul><li>How does your organisation currently manage&nbsp;data quality?</li><li>Are you getting the full benefits of your efforts?</li><li>Are you measuring what really matters?</li><li>Who are your data quality assessment results for?</li><li>Do leaders across your&nbsp;organisation&nbsp;understand the results?</li></ul><p>&nbsp;</p>",
+    "_id": "6214ffc45c080d0a15af0a5d",
+    "_parentId": "6214ffc35c080d0a15af09d6",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "accordion",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Course content",
+    "displayTitle": "",
+    "body": "<p>Module one introduces the basics of how and why to assess data quality. Module two introduces the concepts behind a method for ongoing data quality management and improvement: Data Quality Action Plans.</p>",
+    "_id": "6214ffc45c080d0a15af0a72",
+    "_parentId": "6214ffc45c080d0a15af0a16",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Click on each section to find out more.",
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Good data quality assessments",
+        "body": "<p>What they look like and why they matter. This module is for everyone who has completed the&nbsp;<a href=\"http://bpi-courses.github.io/Introduction_to_Data_Quality/\" target=\"_blank\">Introduction to data quality course</a>.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Introduction to data quality action plans",
+        "body": "<p>How they can guide you from assessments to more effective improvements.&nbsp;This module is for everyone who has completed the&nbsp;<a href=\"http://bpi-courses.github.io/Introduction_to_Data_Quality/\" target=\"_blank\">Introduction to data quality course</a>&nbsp;and has an interest in applying data quality improvements.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_component": "pageNav",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Navigation buttons",
+    "displayTitle": "",
+    "body": "",
+    "_id": "6214ffc45c080d0a15af0a73",
+    "_parentId": "6214ffc45c080d0a15af0a17",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_loopStyle": "none",
+    "_buttons": {
+      "_returnToPreviousLocation": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Return",
+        "ariaLabel": "Return to previous location",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}"
+      },
+      "_previous": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Previous",
+        "ariaLabel": "Previous Page",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_root": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Menu",
+        "ariaLabel": "Go to main menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_up": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Back to menu",
+        "ariaLabel": "Back to menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_next": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": true,
+        "text": "Next",
+        "ariaLabel": "Next Page",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_sibling": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "{{inc index}}",
+        "ariaLabel": "Page {{inc index}}",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_close": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Close",
+        "ariaLabel": "Close window",
+        "_showTooltip": false,
+        "tooltip": "Close window"
+      }
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Final reflections",
+    "displayTitle": "",
+    "body": "<p>Data cannot be perfect quality, but it does need to be good enough quality to be fit for your purposes. Understanding what data is used for, and regularly assessing the quality of data for those purposes can prevent data quality problems from having negative impacts on your business outcomes.</p><p>Remember, all data quality assessments should be:</p><ul><li>Evidence-based</li><li>Linked to purpose</li><li>Proactive</li><li>Communicated</li></ul><p>If you&nbsp;manage a data set as part of your work, you might want to apply a data quality action plans approach to improving data quality. Our course on Designing and Using Data Quality Action Plans can help you to start the process</p>",
+    "_id": "6218f5fd5c080d0a15af0be0",
+    "_parentId": "6218f5cb5c080d0a15af0bdf",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  }
+]
