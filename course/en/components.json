@@ -1957,7 +1957,7 @@
         }
       },
       {
-        "title": "Link data to purpose",
+        "title": "Data has many purposes",
         "body": "<p>It is common for data to be collected for one purpose but used for many other purposes. This helps us make the most of our data.</p>",
         "_classes": "",
         "_graphic": {
@@ -1965,7 +1965,7 @@
           "srcHover": "",
           "srcVisited": "",
           "alt": "A laptop being used. There is an overlaid network of users connecting to the data together.",
-          "title": "Link data to purpose"
+          "title": "Data has many purposes"
         },
         "_itemGraphic": {
           "src": "",
@@ -1975,7 +1975,7 @@
       },
       {
         "title": "Link quality to purpose",
-        "body": "<p>This means that data may be good enough for one purpose, but not another.&nbsp;The quality of data is different for different uses.&nbsp;</p>",
+        "body": "<p>For each purpose, we might use different parts of the data in different ways. This means that data could be good enough for one purpose, but not for another.&nbsp;The quality of data is different for different uses.&nbsp;</p>",
         "_classes": "",
         "_graphic": {
           "src": "course/en/assets/ec2b3ec5328b66c88fc24fa406b3ac053ca91d2a.jpg",
@@ -2423,7 +2423,7 @@
       "_isEnabled": true,
       "_isCompletionIndicatorEnabled": false
     },
-    "instruction": "For each statement, choose whether this is a feature of a traditional approach to data quality or a DQAP approach. ",
+    "instruction": "For each statement, select whether this is a feature of a traditional approach to data quality or a DQAP approach. ",
     "_attempts": 3,
     "_canShowModelAnswer": true,
     "_canShowFeedback": true,
@@ -2436,7 +2436,7 @@
     "placeholder": "Please select an option",
     "_items": [
       {
-        "text": "Different quality assessments for different uses of the data.",
+        "text": "1) Different quality assessments for different uses of the data.",
         "_options": [
           {
             "text": "Traditional assessments",
@@ -2449,7 +2449,7 @@
         ]
       },
       {
-        "text": "Equal importance given to all fields in the data set.",
+        "text": "2) Equal importance given to all fields in the data set.",
         "_options": [
           {
             "text": "Traditional assessments",
@@ -2462,7 +2462,7 @@
         ]
       },
       {
-        "text": "Outputs that communicate data quality priorities well to strategic leadership.",
+        "text": "3) Outputs that communicate data quality priorities well to strategic leadership.",
         "_options": [
           {
             "text": "Traditional assessments",
@@ -2475,7 +2475,7 @@
         ]
       },
       {
-        "text": "A data-first approach designed for technical data experts.",
+        "text": "4) A data-first approach designed for technical data experts.",
         "_options": [
           {
             "text": "Traditional assessments",
@@ -2488,7 +2488,7 @@
         ]
       },
       {
-        "text": "The impact that the quality of the data has on your business outcomes.",
+        "text": "5) The impact that the quality of the data has on your business outcomes.",
         "_options": [
           {
             "text": "Traditional assessments",
